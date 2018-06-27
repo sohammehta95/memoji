@@ -1,5 +1,5 @@
 # Memoji
-Memoji is an NPM library to help you find your perfect memoji
+Memoji is an NPM library to help you find your perfect memoji in ASCII Art
 
 ## Installation
 
@@ -14,14 +14,20 @@ You need to run the following command to install memoji
 var memoji = require('memoji');
 ```
 
+## Get the Starter memoji help
+```bash
+memoji.help();
+```
 ## Example Memify
 
+The memoji can have either gender: male or female and spectacles: true or false.
 ```bash
 var person = {
-	gender : male;
+	gender : male,
+	spectacles: true
 }
 
-memoji.memify(person);
+console.log( memoji.memify(person) );
 ```
 
 ##Disclaimer
