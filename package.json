@@ -1,6 +1,6 @@
 {
   "name": "memoji",
-  "version": "1.0.4",
+  "version": "1.2.0",
   "description": "Find your perfect memoji",
   "main": "index.js",
   "scripts": {
