@@ -1,21 +1,18 @@
-exports.printMsg = function() {
-  console.log("This is a message from the demo package");
+
+module.exports.memify = function(obj) {
+	console.log("hi");     
 }
 
-exports.memify = function(obj) {
-	if(obj.gender=="male")
-		console.log("nay");       
-}
 
 module.exports = function(){
 	console.log("             .-\"\"\"-.                   ");
     console.log("             / .===. \                   ");
     console.log("             \/ 6 6 \/                  ");
     console.log("             ( \___/ )                  ");
-    console.log("_________ooo__\_____/______________      ");
-    console.log("/                                   \       ");
-    console.log("|   								   |      ");
-    console.log("|     Memojis Coming Soon     		   |      ");
+    console.log("_________ooo__\_____/_________________     ");
+    console.log("|                                     | ");
+    console.log("|                                     |");
+    console.log("|     Memojis Are Amazing!            |");
     console.log("| 									   |      ");
     console.log(" \_______________________ooo_________/       ");
     console.log("              |  |  |");
